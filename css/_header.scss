@@ -1,0 +1,41 @@
+@import "global";
+@import "variables";
+
+header {
+    font-size: 18px;
+    background-color: $pale-cyan;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.83em;
+
+    .logo {
+        width: 30%;
+    }
+
+    >button.btn {
+        @extend .btn;
+        background-color: white;
+        color: $dark-cyan;
+        font-weight: 700;
+        padding: .6em 3em;
+        font-family: $op-sans;
+    }
+}
+
+@media screen and (min-width: $desktop-width) {
+    header {
+        font-size: 18px;
+        background-color: $pale-cyan;
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2.2em;
+    
+        .logo {
+            width: 15%;
+        }
+    }
+}

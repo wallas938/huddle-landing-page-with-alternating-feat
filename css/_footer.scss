@@ -1,0 +1,141 @@
+@import "variables";
+@import "global";
+
+.footer {
+    background-color: $dark-cyan;
+    margin-top: 12em;
+    padding: 10em 0 2rem 1rem;
+    color: white;
+    font-size: 18px;
+
+    &__logo {
+        width: 25%;
+    }
+
+    .position,
+    .phone,
+    .email {
+        padding: .5em 0;
+        position: relative;
+
+        p {
+            width: 80%;
+            margin-left: 2em;
+        }
+    }
+
+    .position>p::before {
+        content: url(../assets/images/icon-location.svg);
+        position: absolute;
+        left: 0;
+        top: 0.77em;
+    }
+
+    .phone>p::before {
+        content: url(../assets/images/icon-phone.svg);
+        position: absolute;
+        left: 0;
+        top: 0.77em;
+    }
+
+    .email>p::before {
+        content: url(../assets/images/icon-email.svg);
+        position: absolute;
+        left: 0;
+        top: 0.77em;
+    }
+
+    div>p,
+    .social {
+        margin-bottom: 1.3em;
+        cursor: pointer;
+    }
+
+    .social {
+        text-align: center;
+
+        >i {
+            border: 1px solid white;
+            border-radius: 50%;
+            padding: .5em .7em;
+            margin: 0 .2em;
+            transition: all 200ms ease-in-out;
+
+            &:hover {
+                color: $pink;
+                border: 1px solid $pink;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $desktop-width) {
+    .footer {
+        background-color: $dark-cyan;
+        margin-top: 22em;
+        padding: 15em 2rem 2rem 5rem;
+        color: white;
+        font-size: 18px;
+        
+        &__logo {
+            width: 10%;
+        }
+
+        > div:nth-child(2) {
+            display: flex;
+            justify-content: space-around;
+            align-items: baseline;
+            > div {
+                width: 30%;
+            }
+
+            > div:not(:first-child) {
+                padding-left: 5rem;
+            }
+        }
+
+        .position,
+        .phone,
+        .email {
+            padding: .5em 0;
+            position: relative;
+            p {
+                margin-left: 2em;
+            }
+        }
+
+        .position>p::before {
+            content: url(../assets/images/icon-location.svg);
+            position: absolute;
+            left: 0;
+            top: 0.77em;
+        }
+
+        .phone>p::before {
+            content: url(../assets/images/icon-phone.svg);
+            position: absolute;
+            left: 0;
+            top: 0.77em;
+        }
+
+        .email>p::before {
+            content: url(../assets/images/icon-email.svg);
+            position: absolute;
+            left: 0;
+            top: 0.77em;
+        }
+
+        div > p {
+            transition: all 200ms ease-in-out;
+        }
+
+        div > p::after {
+            content: "";
+            display: block;
+            width: 100%;
+        }
+
+        div > p:hover {
+        }
+    }
+}

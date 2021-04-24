@@ -1,0 +1,661 @@
+body {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-dir-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-dir-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-jus-sp-ar {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flex-jus-sp-btw {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jus-sp-ev {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flex-jus-sp-ce {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-al-it-bas {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.flex-al-it-ce {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn, header > button.btn, section.hero header > button.btn, .illustrations .action-card > button.btn, .illustrations section.hero .action-card > button.btn {
+  border-radius: 2.77rem;
+  border: none;
+  -webkit-box-shadow: 1px 1px 15px 1px #ccc;
+          box-shadow: 1px 1px 15px 1px #ccc;
+}
+
+header {
+  font-size: 18px;
+  background-color: #ebfbff;
+  height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.83em;
+}
+
+header .logo {
+  width: 30%;
+}
+
+header > button.btn, section.hero header > button.btn, .illustrations header.action-card > button.btn, .illustrations section.hero header.action-card > button.btn {
+  background-color: white;
+  color: #00252e;
+  font-weight: 700;
+  padding: .6em 3em;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media screen and (min-width: 1440px) {
+  header {
+    font-size: 18px;
+    background-color: #ebfbff;
+    height: 8vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 2.2em;
+  }
+  header .logo {
+    width: 15%;
+  }
+}
+
+body {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-dir-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-dir-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-jus-sp-ar {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flex-jus-sp-btw {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jus-sp-ev {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flex-jus-sp-ce {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-al-it-bas {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.flex-al-it-ce {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn, header > button.btn, section.hero header > button.btn, .illustrations .action-card > button.btn, .illustrations section.hero .action-card > button.btn {
+  border-radius: 2.77rem;
+  border: none;
+  -webkit-box-shadow: 1px 1px 15px 1px #ccc;
+          box-shadow: 1px 1px 15px 1px #ccc;
+}
+
+section.hero {
+  font-size: 18px;
+  background-color: #ebfbff;
+  text-align: center;
+  padding: 2.5em;
+  position: relative;
+  z-index: 0;
+}
+
+section.hero h1 {
+  font-family: "Poppins", sans-serif;
+  color: #00252e;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+section.hero p {
+  font-weight: 400;
+  margin-bottom: 2em;
+  color: #00252e;
+}
+
+section.hero button.btn, section.hero .illustrations .action-card > button.btn, .illustrations section.hero .action-card > button.btn {
+  background-color: #ff52bf;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 3em;
+  color: white;
+  padding: .8rem 3rem;
+}
+
+section.hero .background-image {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  section.hero {
+    text-align: left;
+    padding: 2.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  section.hero div:last-child {
+    width: 50%;
+  }
+  section.hero .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    padding: 0 7% 0 0%;
+  }
+  section.hero .left h1 {
+    font-size: 2.8em;
+  }
+  section.hero .left p {
+    font-weight: 400;
+  }
+  section.hero .left button.btn {
+    background-color: #ff52bf;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 3em;
+    color: white;
+    padding: .8rem 3rem;
+    width: 40%;
+  }
+  section.hero .background-image {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+body {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-dir-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-dir-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-jus-sp-ar {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flex-jus-sp-btw {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jus-sp-ev {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flex-jus-sp-ce {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-al-it-bas {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.flex-al-it-ce {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn, header > button.btn, section.hero header > button.btn, .illustrations .action-card > button.btn, .illustrations section.hero .action-card > button.btn {
+  border-radius: 2.77rem;
+  border: none;
+  -webkit-box-shadow: 1px 1px 15px 1px #ccc;
+          box-shadow: 1px 1px 15px 1px #ccc;
+}
+
+.illustrations {
+  color: #00252e;
+  position: relative;
+}
+
+.illustrations .illustration {
+  text-align: center;
+  width: 90%;
+  margin: 2rem auto;
+  padding: 3rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px -6px #ccc;
+          box-shadow: 0px 0px 15px -6px #ccc;
+  border: none;
+}
+
+.illustrations .illustration h2 {
+  font-weight: 600;
+  margin: 3rem 0 1.5rem 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.illustrations .illustration p {
+  font-weight: 400;
+}
+
+.illustrations .action-card {
+  position: absolute;
+  text-align: center;
+  border: none;
+  -webkit-box-shadow: 0px 0px 15px -6px #ccc;
+          box-shadow: 0px 0px 15px -6px #ccc;
+  margin: 5rem 5%;
+  padding: 2rem;
+  border-radius: 15px;
+  width: 90%;
+  z-index: 100;
+  background-color: white;
+}
+
+.illustrations .action-card h2 {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.illustrations .action-card > button.btn, .illustrations section.hero .action-card > button.btn {
+  background-color: #ff52bf;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 3em;
+  color: white;
+  padding: .8rem 3rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .illustrations .illustration {
+    text-align: left;
+    width: 90%;
+    margin: 2rem auto 3rem auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 3rem;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px -6px #ccc;
+            box-shadow: 0px 0px 15px -6px #ccc;
+    border: none;
+  }
+  .illustrations .illustration__left {
+    padding: 0 4rem;
+  }
+  .illustrations .illustration__left h2 {
+    font-weight: 600;
+    font-size: 2em;
+    margin: 3rem 0 1.5rem 0;
+  }
+  .illustrations .illustration:nth-child(2) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .illustrations .action-card {
+    position: absolute;
+    text-align: center;
+    border: none;
+    -webkit-box-shadow: 0px 0px 15px -6px #ccc;
+            box-shadow: 0px 0px 15px -6px #ccc;
+    margin: 10rem 20%;
+    width: 60%;
+    z-index: 100;
+    background-color: white;
+    padding: 6rem 0;
+  }
+  .illustrations .action-card h2 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .illustrations .action-card > button.btn, .illustrations section.hero .action-card > button.btn {
+    margin-bottom: 3em;
+    color: white;
+    padding: 1.5rem 3rem;
+    font-weight: bolder;
+    width: 40%;
+  }
+}
+
+body {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-dir-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-dir-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-jus-sp-ar {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flex-jus-sp-btw {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jus-sp-ev {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flex-jus-sp-ce {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-al-it-bas {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.flex-al-it-ce {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn, header > button.btn, section.hero header > button.btn, .illustrations .action-card > button.btn, .illustrations section.hero .action-card > button.btn {
+  border-radius: 2.77rem;
+  border: none;
+  -webkit-box-shadow: 1px 1px 15px 1px #ccc;
+          box-shadow: 1px 1px 15px 1px #ccc;
+}
+
+.footer {
+  background-color: #00252e;
+  margin-top: 12em;
+  padding: 10em 0 2rem 1rem;
+  color: white;
+  font-size: 18px;
+}
+
+.footer__logo {
+  width: 25%;
+}
+
+.footer .position,
+.footer .phone,
+.footer .email {
+  padding: .5em 0;
+  position: relative;
+}
+
+.footer .position p,
+.footer .phone p,
+.footer .email p {
+  width: 80%;
+  margin-left: 2em;
+}
+
+.footer .position > p::before {
+  content: url(../assets/images/icon-location.svg);
+  position: absolute;
+  left: 0;
+  top: 0.77em;
+}
+
+.footer .phone > p::before {
+  content: url(../assets/images/icon-phone.svg);
+  position: absolute;
+  left: 0;
+  top: 0.77em;
+}
+
+.footer .email > p::before {
+  content: url(../assets/images/icon-email.svg);
+  position: absolute;
+  left: 0;
+  top: 0.77em;
+}
+
+.footer div > p,
+.footer .social {
+  margin-bottom: 1.3em;
+  cursor: pointer;
+}
+
+.footer .social {
+  text-align: center;
+}
+
+.footer .social > i {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: .5em .7em;
+  margin: 0 .2em;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.footer .social > i:hover {
+  color: #ff52bf;
+  border: 1px solid #ff52bf;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    background-color: #00252e;
+    margin-top: 22em;
+    padding: 15em 2rem 2rem 5rem;
+    color: white;
+    font-size: 18px;
+  }
+  .footer__logo {
+    width: 10%;
+  }
+  .footer > div:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .footer > div:nth-child(2) > div {
+    width: 30%;
+  }
+  .footer > div:nth-child(2) > div:not(:first-child) {
+    padding-left: 5rem;
+  }
+  .footer .position,
+  .footer .phone,
+  .footer .email {
+    padding: .5em 0;
+    position: relative;
+  }
+  .footer .position p,
+  .footer .phone p,
+  .footer .email p {
+    margin-left: 2em;
+  }
+  .footer .position > p::before {
+    content: url(../assets/images/icon-location.svg);
+    position: absolute;
+    left: 0;
+    top: 0.77em;
+  }
+  .footer .phone > p::before {
+    content: url(../assets/images/icon-phone.svg);
+    position: absolute;
+    left: 0;
+    top: 0.77em;
+  }
+  .footer .email > p::before {
+    content: url(../assets/images/icon-email.svg);
+    position: absolute;
+    left: 0;
+    top: 0.77em;
+  }
+  .footer div > p {
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+  }
+  .footer div > p::after {
+    content: "";
+    display: block;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
