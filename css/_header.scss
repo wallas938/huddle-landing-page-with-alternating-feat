@@ -8,19 +8,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.83em;
-
+    padding: 2.5em 2em;
     .logo {
         width: 30%;
     }
 
-    >button.btn {
+    button {
         @extend .btn;
         background-color: white;
         color: $dark-cyan;
         font-weight: 700;
-        padding: .6em 3em;
+        padding: .7% 3%;
         font-family: $op-sans;
+        font-size: 1.4rem;
     }
 }
 

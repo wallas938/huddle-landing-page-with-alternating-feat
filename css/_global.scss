@@ -50,4 +50,11 @@ img {
     border-radius: 2.77rem;
     border: none;
     box-shadow: 1px 1px 15px 1px #ccc;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 100ms ease-in-out;
+
+    &:hover {
+        opacity: .75;
+    }
 }
