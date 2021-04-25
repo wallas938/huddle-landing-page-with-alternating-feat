@@ -282,8 +282,7 @@ section.hero header button, header section.hero button, section.hero button.btn,
     font-family: "Open Sans", sans-serif;
     margin-bottom: 3em;
     color: white;
-    width: 40%;
-    height: 8%;
+    width: 60%;
     font-size: 1.4rem;
   }
 }
@@ -452,7 +451,7 @@ img {
   }
   .illustrations .illustration__left h2 {
     font-weight: 600;
-    font-size: 2.8em;
+    font-size: 2em;
     margin: 3rem 0 1.5rem 0;
   }
   .illustrations .illustration__left p {
@@ -479,7 +478,7 @@ img {
   .illustrations .action-card h2 {
     font-weight: 600;
     margin-bottom: 2rem;
-    font-size: 2.8em;
+    font-size: 2em;
   }
   .illustrations header .action-card > button, header .illustrations .action-card > button, .illustrations .action-card > button.btn, .illustrations section.hero .action-card > button.btn {
     margin-bottom: 3em;
@@ -626,17 +625,18 @@ img {
   border-radius: 50%;
   padding: .5em .7em;
   margin: 0 .2em;
-  -webkit-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
 .footer .social > i:hover {
   color: #ff52bf;
-  border: 1px solid #ff52bf;
+  border: 3px solid #ff52bf;
 }
 
 .footer p.copyright {
-  text-align: end;
+  text-align: center;
+  margin: 1.5rem 0;
   color: #ff52bf;
 }
 
@@ -726,6 +726,10 @@ img {
   .footer div > p {
     -webkit-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
+  }
+  .footer p.copyright {
+    text-align: end;
+    color: #ff52bf;
   }
 }
 /*# sourceMappingURL=styles.css.map */
