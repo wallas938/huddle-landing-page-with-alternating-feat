@@ -10,7 +10,7 @@ section.hero {
     z-index: 0;
 
     &::before {
-        content: url(../assets/images/bg-hero-mobile.svg);
+        content: url(../images/bg-hero-mobile.svg);
         position: absolute;
         top: 0;
         left: 0;
